@@ -10,7 +10,6 @@ pipeline {
                 sh '''
                 sh "sh run.sh"
                 '''
-                //
 
             }
 
@@ -23,22 +22,10 @@ pipeline {
                 echo "Hi, this is a pipeline"
                 '''
 
-                //
-
             }
 
         }
 
-        stage('Deploy') {
-
-            steps {
-
-                //
-
-            }
-
-        }
-
-    }
+     }
 
 }
